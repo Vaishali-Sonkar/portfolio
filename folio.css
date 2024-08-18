@@ -1,0 +1,90 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html,
+body{
+
+}
+#main{
+    height:100vh;
+    width:100vw;
+    background-color:#081f37;
+}
+.navbar{
+height: 10%;
+width:100%;
+position: fix;
+/* background-color: aliceblue; */
+ display: flex;
+justify-content: end;
+cursor: pointer;
+}
+.items{
+    margin:1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+   /* color:rgb(180, 228, 6); */
+}
+.items:hover{
+    border: 2px solid rgb(6, 228, 106);
+}
+.resume{
+    color:rgb(6, 228, 106);
+    border: 2px solid rgb(6, 228, 106);
+    }
+.profile{
+    margin-right: 18px;
+     align-items: center;
+    display: flex;
+    justify-content:center;
+}
+.content{
+    margin-top:5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(157, 163, 168);
+}
+.first{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(6, 228, 106);
+}
+.name{
+    font-family:monospace;
+    font-size:5em;
+    opacity:1;
+}
+.l1{
+    font-family:monospace;
+    font-size:3em;
+    opacity: 0.6;
+}
+.l2{
+    font-family:monospace;
+    font-size:1.7em;
+}
+.button{
+    height: 2%;
+    width:10%;
+    margin-top: 3.5%;
+    padding: 1%;
+    color:rgb(6, 228, 106);
+    border: 2px solid #06e46a;
+    font-size:1.5em;
+    text-align: center;
+}
+.button:hover{
+    box-shadow: 2px 2px 10px #06e46a;
+}
+.contact{
+    margin-top: 5%;
+}
+.contact h4{
+    font-size: 1.2vw;
+
+    margin-bottom:1% ;
+}
+.social{
+    margin-top:5%;
+    margin-right:3%;
+}
